@@ -19,7 +19,7 @@ sudo apt-get update
 ```
 Install them:
 ```
-sudo apt-get install xorriso squashfs-tools qemu
+sudo apt-get install xorriso squashfs-tools mtools qemu
 ```
 QEMU is optional. It is only needed for testing the ISO to see how it is.
 ## Second, copy your system to the work.
