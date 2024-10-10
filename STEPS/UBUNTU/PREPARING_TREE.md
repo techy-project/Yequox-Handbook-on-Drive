@@ -8,7 +8,16 @@ sudo cp -vp ${WORK}/rootfs/boot/vmlinuz-${kversion} ${CD}/${FS_DIR}/vmlinuz
 sudo cp -vp ${WORK}/rootfs/boot/initrd.img-${kversion} ${CD}/${FS_DIR}/initrd.img
 sudo cp -vp ${WORK}/rootfs/boot/memtest86+.bin ${CD}/boot
 ```
-### Generate the manifest. (optional, only needed if Ubiquity is installed)
+## Copy EFI (only for UEFI)
+Copy EFI:
+```
+sudo cp ${WORK}/rootfs/boot/efi ${CD}/ -R
+```
+If it's on uppercase, run this instead:
+```
+sudo cp ${WORK}/rootfs/boot/EFI ${CD}/ -R
+```
+## Generate the manifest. (optional, only needed if Ubiquity is installed)
 To generate filesystem.manifest, run the chroot with the command `dpkg-query` to list all packages with the package and the version name, exit automatically with the single command and generate the manifest using the `tee` command. Run:
 ```
 sudo chroot ${WORK}/rootfs dpkg-query -W --showformat='${Package} ${Version}\n' | sudo tee ${CD}/${FS_DIR}/filesystem.manifest
