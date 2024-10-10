@@ -5,9 +5,12 @@ Difficulty on GUI:
 - 10% hard
 - 30% medium
 - 60% easy
+
 Difficulty on CLI:
 - 20% easy
 - 30% medium
 - 50% hard
+
+
 ## What is it made for?
 Handbook on Drive is the continuation of MakeALiveCD.
