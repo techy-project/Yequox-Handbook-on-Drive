@@ -15,3 +15,9 @@ RPM distributions (Fedora, CentOS, RHEL, etc.):
   - [Preparing the CD directory tree](https://techy-project.github.io/Yequox-Handbook-on-Drive/STEPS/RPM/PREPARING_TREE)
   - [Build ISO](https://techy-project.github.io/Yequox-Handbook-on-Drive/STEPS/RPM/BUILD_ISO)
 
+Debian:
+  - [Get Started](https://techy-project.github.io/Yequox-Handbook-on-Drive/STEPS/DEBIAN/GET_STARTED)
+  - [Modifying](https://techy-project.github.io/Yequox-Handbook-on-Drive/STEPS/DEBIAN/MODIFYING)
+  - [Preparing the CD directory tree](https://techy-project.github.io/Yequox-Handbook-on-Drive/STEPS/DEBIAN/PREPARING_TREE)
+  - [Build ISO](https://techy-project.github.io/Yequox-Handbook-on-Drive/STEPS/DEBIAN/BUILD_ISO)
+
